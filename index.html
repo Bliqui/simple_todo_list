@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">    
+        <div class="wrapper">
+            <div id="todo">
+                <h1>todos</h1>
+                <input id="input" type="text" placeholder="What needs to be done?">
+                <ul class="todos">
+                </ul>
+                <div id="buttons">
+                    <button class="save">Save</button>
+                    <button class="clear">Clear</button>
+                    <button class="showTips">FAQ</button>
+                </div>
+            </div>
+            <div id = "overlay">
+                <div class="stripe"></div>
+                <div class="tips">
+                    <p class="tip">To add a to-do list, write text in the input field and press <b>"Save"</b> button.</p>
+                    <p class="tip">To delete all to-do lists, click <b>"Clear"</b> button.</p>
+                    <p class="tip">To mark current task as complete, click <b>"Check Mark"</b> button.</p>
+                    <p class="tip">To delete current task, click <b>"Trash Bin"</b> button.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
